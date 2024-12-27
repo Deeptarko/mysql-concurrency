@@ -1,0 +1,40 @@
+Create a sql table with the name movie_seats where it contains 3 fields
+1)id (integer) (primary key)
+2)seat_number (integer)
+3)user_id (Integer)
+
+
+Create insert statement to insert 25 rows with seat_number 1-25
+
+
+INSERT INTO movie_seats (id, seat_number, user_id) VALUES
+(1, 1, NULL),
+(2, 2, NULL),
+(3, 3, NULL),
+(4, 4, NULL),
+(5, 5, NULL),
+(6, 6, NULL),
+(7, 7, NULL),
+(8, 8, NULL),
+(9, 9, NULL),
+(10, 10, NULL),
+(11, 11, NULL),
+(12, 12, NULL),
+(13, 13, NULL),
+(14, 14, NULL),
+(15, 15, NULL),
+(16, 16, NULL),
+(17, 17, NULL),
+(18, 18, NULL),
+(19, 19, NULL),
+(20, 20, NULL),
+(21, 21, NULL),
+(22, 22, NULL),
+(23, 23, NULL),
+(24, 24, NULL),
+(25, 25, NULL);
+
+UPDATE movie_seats
+SET seat_number = id,
+    user_id = NULL;
+
